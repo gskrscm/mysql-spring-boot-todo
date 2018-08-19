@@ -101,7 +101,7 @@
 			      </execution>
 			   </executions>
 			   <configuration>
-			      <serverId>nexus</serverId>
+			      <serverId>nexus-release</serverId>
 			      <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
 			      <skipStaging>true</skipStaging>
 			   </configuration>
@@ -141,7 +141,7 @@
 	                  </execution>
 	               </executions>
 	               <configuration>
-	                  <serverId>nexus</serverId>
+	                  <serverId>nexus-release</serverId>
 	                  <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
 	                  <skipStaging>true</skipStaging>
 	               </configuration>
@@ -153,12 +153,12 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus-release</id>
 	      <name>Releases</name>
 	      <url>http://localhost:8081/repository/todoapp-releases</url>
 	    </repository>
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus-snapshot</id>
 	      <name>Snapshot</name>
 	      <url>http://localhost:8081/repository/todoapp</url>
 	    </snapshotRepository>
