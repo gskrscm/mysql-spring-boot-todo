@@ -101,7 +101,7 @@
 			      </execution>
 			   </executions>
 			   <configuration>
-			      <serverId>nexus-release</serverId>
+			      <serverId>nexus-snapshot</serverId>
 			      <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
 			      <skipStaging>true</skipStaging>
 			   </configuration>
