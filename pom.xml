@@ -51,6 +51,12 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+	   <connection>scm:git:https://github.com/gskrscm/mysql-spring-boot-todo.git</connection>
+	   <url>https://github.com/gskrscm/mysql-spring-boot-todo.git</url>
+	   <developerConnection>scm:git:https://github.com/gskrscm/mysql-spring-boot-todo.git</developerConnection>
+	</scm>
+
 	<build>
 		<plugins>
 			<plugin>
