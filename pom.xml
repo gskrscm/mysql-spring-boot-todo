@@ -22,6 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<project.scm.id>github</project.scm.id>
 	</properties>
 
 	<dependencies>
@@ -117,15 +118,6 @@
 			      <autoVersionSubmodules>true</autoVersionSubmodules>
 			      <releaseProfiles>release</releaseProfiles>
 			   </configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-scm-plugin</artifactId>
-				<version>1.10.0</version>
-				<configuration>
-						<server>github</server>
-				</configuration>
 			</plugin>
 			
 		</plugins>
