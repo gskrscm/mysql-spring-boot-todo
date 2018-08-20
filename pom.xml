@@ -154,18 +154,24 @@
 	</profiles>
 	
 	<distributionManagement>
+
+	<downloadUrl>
+		http://localhost:8081/repository/todoapp-releases
+	</downloadUrl>
+	<status>deployed</status>
+	<!--
 	    <repository>
 	      <id>nexus-release</id>
 	      <name>Releases</name>
 	      <url>http://localhost:8081/repository/todoapp-releases</url>
 	    </repository>
-		<!--
+	-->	
 	    <snapshotRepository>
 	      <id>nexus-snapshot</id>
 	      <name>Snapshot</name>
 	      <url>http://localhost:8081/repository/todoapp</url>
 	    </snapshotRepository>
-		-->
+		
 	  </distributionManagement>
 	
 </project>
