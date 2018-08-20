@@ -56,6 +56,9 @@
 	   <url>https://github.com/gskrscm/mysql-spring-boot-todo.git</url>
 	   <developerConnection>scm:git:https://github.com/gskrscm/mysql-spring-boot-todo.git</developerConnection>
 	   <tag>v1.5</tag>
+	   <configuration>
+	   		<server>github</server>
+	   </configuration>
 	</scm>
 
 	<build>
