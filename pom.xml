@@ -161,7 +161,7 @@
 	    <snapshotRepository>
 	      <id>nexus-snapshot</id>
 	      <name>Snapshot</name>
-	      <url>http://localhost:8081/repository/todoapp-releases</url>
+	      <url>http://localhost:8081/repository/todoapp</url>
 	    </snapshotRepository>
 	  </distributionManagement>
 	
