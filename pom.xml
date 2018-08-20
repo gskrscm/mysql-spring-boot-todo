@@ -158,18 +158,20 @@
 	<downloadUrl>
 		http://localhost:8081/repository/todoapp-releases
 	</downloadUrl>
-	<!--
-	    <repository>
-	      <id>nexus-release</id>
-	      <name>Releases</name>
-	      <url>http://localhost:8081/repository/todoapp-releases</url>
-	    </repository>
-	-->	
+
+
+	
 	    <snapshotRepository>
 	      <id>nexus-snapshot</id>
 	      <name>Snapshot</name>
 	      <url>http://localhost:8081/repository/todoapp</url>
 	    </snapshotRepository>
+
+		<repository>
+	      <id>nexus-release</id>
+	      <name>Releases</name>
+	      <url>http://localhost:8081/repository/todoapp-releases</url>
+	    </repository>
 		
 	  </distributionManagement>
 	
