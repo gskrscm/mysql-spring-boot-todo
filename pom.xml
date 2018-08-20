@@ -158,7 +158,6 @@
 	<downloadUrl>
 		http://localhost:8081/repository/todoapp-releases
 	</downloadUrl>
-	<status>deployed</status>
 	<!--
 	    <repository>
 	      <id>nexus-release</id>
