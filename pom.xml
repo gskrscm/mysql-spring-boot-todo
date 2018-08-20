@@ -56,9 +56,6 @@
 	   <url>https://github.com/gskrscm/mysql-spring-boot-todo.git</url>
 	   <developerConnection>scm:git:https://github.com/gskrscm/mysql-spring-boot-todo.git</developerConnection>
 	   <tag>v1.5</tag>
-	   <configuration>
-	   		<server>github</server>
-	   </configuration>
 	</scm>
 
 	<build>
@@ -120,6 +117,15 @@
 			      <autoVersionSubmodules>true</autoVersionSubmodules>
 			      <releaseProfiles>release</releaseProfiles>
 			   </configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.10.0</version>
+				<configuration>
+						<server>github</server>
+				</configuration>
 			</plugin>
 			
 		</plugins>
